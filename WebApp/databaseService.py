@@ -5,11 +5,11 @@ import json
 app = Flask(__name__)
 
 def connection():
-   conn = psycopg2.connect(user="postgres",
-                                  password="wpiassistment",
-                                  host="problems.cys6auvzw1bb.us-east-1.rds.amazonaws.com",
-                                  port="5432",
-                                  database="demo")
+   conn = psycopg2.connect(user="",
+                                  password="",
+                                  host="",
+                                  port="",
+                                  database="")
 
    c = conn.cursor()
 
